@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import Toor from './../../img/toor.jpg'
 
 const Clients = () => {
     return (
@@ -53,7 +54,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/720x400"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -65,7 +66,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/721x401"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -77,7 +78,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/722x402"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -89,7 +90,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -101,7 +102,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -113,7 +114,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-base text-gray-900 font-medium title-font mb-4">
@@ -125,7 +126,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
@@ -137,7 +138,7 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={Toor}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
