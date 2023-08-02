@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Videos = ({img, index}) => {
     return (
-            <div className="lg:w-1/3 sm:w-1/2" bis_skin_checked={1}>
+            <div className="lg:w-1/3 sm:w-1/2 p-2" bis_skin_checked={1}>
                     <div className="flex relative" bis_skin_checked={1}>
                     <img
                         alt="gallery"
