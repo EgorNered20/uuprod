@@ -1,5 +1,4 @@
 import styles from './Contacts.module.css'
-import video from './../../img/bg.mp4'
 
 const Contacts = () => {
     return (
