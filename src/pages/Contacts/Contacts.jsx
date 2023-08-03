@@ -1,3 +1,5 @@
+import './Contacts.module.css'
+
 const Contacts = () => {
     return (
         <>
@@ -119,6 +121,9 @@ const Contacts = () => {
                 </i>
                 </i>
             </i>
+            <section className='background'>
+                
+            </section>
             </>
 
     )
