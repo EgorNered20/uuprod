@@ -1,44 +1,44 @@
-import video01 from './../img/video1.png'
+import video01 from './../img/video1.jpg'
 
-import video02 from './../img/video2.png'
+import video02 from './../img/video2.jpg'
 
-import video03 from './../img/video3.png'
+import video03 from './../img/video3.jpg'
 
-import video04 from './../img/video4.png'
+import video04 from './../img/video4.jpg'
 
-import video05 from './../img/video5.png'
+import video05 from './../img/video5.jpg'
 
-import video06 from './../img/video6.png'
+import video06 from './../img/video6.jpg'
 
-import video07 from './../img/video7.png'
+import video07 from './../img/video7.jpg'
 
-import video08 from './../img/video8.png'
+import video08 from './../img/video8.jpg'
 
-import video09 from './../img/video9.png'
+import video09 from './../img/video9.jpg'
 
-import video10 from './../img/video10.png'
+import video10 from './../img/video10.jpg'
 
-import video11 from './../img/video11.png'
+import video11 from './../img/video11.jpg'
 
-import video12 from './../img/video12.png'
+import video12 from './../img/video12.jpg'
 
-import video13 from './../img/video13.png'
+import video13 from './../img/video13.jpg'
 
-import video14 from './../img/video14.png'
+import video14 from './../img/video14.jpg'
 
-import video15 from './../img/video15.png'
+import video15 from './../img/video15.jpg'
 
-import video16 from './../img/video16.png'
+import video16 from './../img/video16.jpg'
 
-import video17 from './../img/video17.png'
+import video17 from './../img/video17.jpg'
 
-import video18 from './../img/video18.png'
+import video18 from './../img/video18.jpg'
 
-import video19 from './../img/video19.png'
+import video19 from './../img/video19.jpg'
 
-import video20 from './../img/video20.png'
+import video20 from './../img/video20.jpg'
 
-import video21 from './../img/video21.png'
+import video21 from './../img/video21.jpg'
 
 const videos = [
     {
