@@ -1,11 +1,24 @@
 import './Home.module.css'
 import { Link } from 'react-router-dom'
+import { useState } from 'react'
 import Videos from './../Videos/Videos'
 
 import {videos} from './../../helpers/videoList'
 
 
 const Home = () => {
+    const [projectsToShow, setProjectsToShow] = useState(6);
+    const [allProjects] = useState(videos);
+    const [displayedProjects, setDisplayedProjects] = useState(
+        allProjects.slice(0, projectsToShow)
+    );
+
+    const loadMoreProjects = () => {
+        setProjectsToShow(projectsToShow + 12);
+        setDisplayedProjects(allProjects.slice(0, projectsToShow + 12));
+    };
+
+
 
     return (
         <section className="text-gray-600 body-font">
@@ -45,23 +58,28 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="flex flex-wrap -m-4 mt-20" bis_skin_checked={1}>
-                    {videos.map((video, index, youtubeid, year, client, name, schene, director, operator, montash, moushdesign, artists, location) => {
-                        return <Videos 
-                        key={index}
-                        img={video.img} 
-                        index={index} 
-                        youtubeid={video.youtubeid} 
-                        year={video.year}
-                        client={video.client}
-                        name={video.name}
-                        schene={video.schene}
-                        director={video.director}
-                        operator={video.operator}
-                        montash={video.montash}
-                        moushdesign={video.moushndesign}
-                        artists={video.artists}
-                        location={video.location} />
-                    })}
+                    {displayedProjects.map((video, index) => {
+                        return (
+                            <Videos
+                            key={index}
+                            img={video.img}
+                            index={index}
+                            youtubeid={video.youtubeid}
+                            year={video.year}
+                            client={video.client}
+                            name={video.name}
+                            schene={video.schene}
+                            director={video.director}
+                            operator={video.operator}
+                            montash={video.montash}
+                            moushdesign={video.moushdesign}
+                            artists={video.artists}
+                            location={video.location}
+                            />
+                        );
+                        })}
+                        
+                        <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none' onClick={loadMoreProjects}>Load More</button>
 
                     
                       
