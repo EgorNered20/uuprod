@@ -21,7 +21,7 @@ const Footer = () => {
                     rel="noopener noreferrer"
                     target="_blank"
                 >
-                    Made by Spark Web Dev
+                    Development by Spark Web Dev
                 </a>
                 </p>
             </div>
