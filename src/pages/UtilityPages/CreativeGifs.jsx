@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Presentation = () => {
     return (
         <>
@@ -70,12 +72,12 @@ const Presentation = () => {
           </p>
         </div>
       <div className="text-center">
-        <a
-          href="/"
+        <Link
+          to="/contacts"
           className="bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
         >
           Заказать проект
-        </a>
+        </Link>
         </div>
     </div>
     </div>
