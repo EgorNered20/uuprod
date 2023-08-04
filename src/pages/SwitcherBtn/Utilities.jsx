@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
-import buklet from './../../img/buklet.webp'
-import rekl from './../../img/komp.webp'
+import buklet from './../../img/buklet.jpg'
+import rekl from './../../img/komp.jpg'
 import gifts from './../../img/gifts.jpg'
 import prom from './../../img/creatprom.jpg'
 import visual from './../../img/3dviz.jpg'
-import prezbiz from './../../img/prezbiz.webp'
+import prezbiz from './../../img/prezbiz.jpg'
 
 const Utilities = () => {
     return (

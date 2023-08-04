@@ -12,7 +12,7 @@ import mainImage6 from './../img/banks.jpg'
 
 import mainImage7 from './../img/prom.jpg'
 
-import mainImage8 from './../img/dev.png'
+import mainImage8 from './../img/dev.jpg'
 
 import toorImg01 from './../img/toor1.jpg'
 import toorImg02 from './../img/too2.jpg'
@@ -35,7 +35,7 @@ import eatImg04 from './../img/eat4.jpg'
 import eatImg05 from './../img/eat5.jpg'
 import eatImg06 from './../img/eat6.jpg'
 
-import resImg01 from './../img/restaurant1.jpeg'
+import resImg01 from './../img/restaurant1.jpg'
 import resImg02 from './../img/restaurant2.jpg'
 import resImg03 from './../img/restaurant3.jpg'
 import resImg04 from './../img/restaurant4.jpg'

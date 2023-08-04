@@ -6,6 +6,7 @@ import Videos from './../Videos/Videos'
 import {videos} from './../../helpers/videoList'
 
 
+
 const Home = () => {
     const [projectsToShow, setProjectsToShow] = useState(6);
     const [allProjects] = useState(videos);
@@ -19,9 +20,10 @@ const Home = () => {
     };
 
 
-
     return (
-        <section className="text-gray-600 body-font">
+        
+       <>
+            <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto" bis_skin_checked={1}>
                 <div>
                     <Link to="/">
@@ -87,6 +89,8 @@ const Home = () => {
                 </div>
                 </div>
         </section>
+       </>
+       
 
     )
 }

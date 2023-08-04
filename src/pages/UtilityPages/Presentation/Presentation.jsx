@@ -25,9 +25,6 @@ const Presentation = () => {
         </p>
       </div>
       <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-        <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
-          <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
-        </div>
         <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
             <p className="text-lg font-bold leading-5">Погружаемся в задачу, изучаем компанию и продукт</p>
