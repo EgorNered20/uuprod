@@ -15,8 +15,8 @@ const Video = ({youtubeid, year}) => {
             <div className='flex justify-center mt-20'>
             <iframe className='youtube-video'
                 title='Youtube player'
-                width='1280'
-                height='720'
+                width='960'
+                height='540'
                 sandbox='allow-same-origin allow-forms allow-popups allow-scripts allow-presentation'
                 src={`https://youtube.com/embed/${youtubeID}?autoplay=0`}>
             </iframe>
