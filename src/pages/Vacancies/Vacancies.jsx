@@ -56,12 +56,12 @@ const Vacancies = () => {
                     </label>
                     <label className='mt-5'>Телефон</label>
                     <input type="tel" placeholder="+7 (999) 999-99-99" className='mb-5' />
-                    <a href="mailto:frontdevegor@gmail.com?subject=Вакансия&amp;body=Кем ты видишь себя в нашей команде:">
+                </form>
+                <a href="mailto:test@gmail.com?subject=Вакансия&amp;body=Кем ты видишь себя в нашей команде:">
                         <button className="flex mx-auto text-white bg-slate-950 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg">
                             Отправить
                         </button>
-                    </a>
-                </form>
+                </a>
             </div>
         </section>
     )
