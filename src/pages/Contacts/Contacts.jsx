@@ -56,9 +56,11 @@ const Contacts = () => {
                         </div>
                         </div>
                         <div className="p-2 w-full">
-                        <button className="flex mx-auto text-white bg-slate-950 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg">
-                            Отправить
-                        </button>
+                        <a href="mailto:test@gmail.com?subject=Проект&amp;body=Опишите ваш проект:">
+                            <button className="flex mx-auto text-white bg-slate-950 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg">
+                                Отправить
+                            </button>
+                        </a>
                         </div>
                         <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
                         <a className="text-slate-950">test@test.com</a>

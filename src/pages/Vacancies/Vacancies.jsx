@@ -56,10 +56,10 @@ const Vacancies = () => {
                     </label>
                     <label className='mt-5'>Телефон</label>
                     <input type="tel" placeholder="+7 (999) 999-99-99" className='mb-5' />
-                    <a href="">
-                        <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none'>
-                            Отправить
-                        </button>
+                    <a href="mailto:frontdevegor@gmail.com?subject=Вакансия&amp;body=Кем ты видишь себя в нашей команде?:">
+                            <button className="flex mx-auto text-white bg-slate-950 border-0 py-2 px-8 focus:outline-none hover:bg-slate-600 rounded text-lg">
+                                Отправить
+                            </button>
                     </a>
                 </form>
             </div>
