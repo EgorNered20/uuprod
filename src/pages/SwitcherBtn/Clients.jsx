@@ -1,4 +1,12 @@
 import { Link } from 'react-router-dom'
+import client1 from './../../img/client1.jpg'
+import client2 from './../../img/client2.jpg'
+import client3 from './../../img/client3.jpg'
+import client4 from './../../img/client4.jpg'
+import client5 from './../../img/client5.jpg'
+import client6 from './../../img/client6.jpg'
+import client7 from './../../img/client7.jpg'
+import client8 from './../../img/client8.jpg'
 
 const Clients = () => {
     return (
@@ -53,11 +61,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/720x400"
+                                    src={client1}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Туризм
+                                    KFC
                                 </h2>
                                 </div>
                             </div>
@@ -65,11 +73,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/721x401"
+                                    src={client2}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Гостиничный бизнес
+                                    Брянский молочный комбинат
                                 </h2>
                                 </div>
                             </div>
@@ -77,11 +85,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/722x402"
+                                    src={client3}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Производство продуктов
+                                    Borjomi
                                 </h2>
                                 </div>
                             </div>
@@ -89,11 +97,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={client4}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Ретейл, кафе и рестораны
+                                    tvzavr
                                 </h2>
                                 </div>
                             </div>
@@ -101,11 +109,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={client5}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Сервис
+                                    ЭкоНива
                                 </h2>
                                 </div>
                             </div>
@@ -113,11 +121,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={client6}
                                     alt="content"
                                 />
                                 <h2 className="text-base text-gray-900 font-medium title-font mb-4">
-                                    Банки и Финансовые организации
+                                    Nestle
                                 </h2>
                                 </div>
                             </div>
@@ -125,11 +133,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={client7}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Промышленность
+                                    Unilever
                                 </h2>
                                 </div>
                             </div>
@@ -137,11 +145,11 @@ const Clients = () => {
                                 <div className="bg-gray-100 p-6 rounded-lg" bis_skin_checked={1}>
                                 <img
                                     className="h-40 rounded w-full object-cover object-center mb-6"
-                                    src="https://dummyimage.com/723x403"
+                                    src={client8}
                                     alt="content"
                                 />
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">
-                                    Девелопмент
+                                    CoolBrew
                                 </h2>
                                 </div>
                             </div>
