@@ -7,6 +7,7 @@ const Vacancies = () => {
                 <h1 className="text-2xl mb-20">Вакансии</h1>
                 <form className='mb-10' action="https://formsubmit.co/frontdevegor@gmail.com" method="POST">
                     <label>Твоё имя</label>
+                    <input type="hidden" name="_captcha" value="false"></input>
                     <input type="text" name='Name' placeholder="Имя" className='mb-5' />
                     <label>Кем ты видишь себя в нашей команде?</label>
                     <label className='mt-5'>
