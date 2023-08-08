@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom"
+import './Videos.module.css'
 
 
 const Videos = ({img, index}) => {
     return (
-            <div className="lg:w-1/3 adaptive p-2" bis_skin_checked={1}>
+            <div className="card lg:w-1/3 w-full p-2" bis_skin_checked={1}>
                     <div className="flex relative" bis_skin_checked={1}>
                     <img
                         alt="gallery"
-                        className="absolute inset-0 w-full h-full object-cover object-center"
+                        className="absolute inset-0 h-full object-cover object-center"
                         src={img}
                     />
                     <div
@@ -15,11 +16,10 @@ const Videos = ({img, index}) => {
                         bis_skin_checked={1}
                     >
                         <Link to={`/video/${index}`}>
-                        <div className='flex justify-center'>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="290" height="200" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
-                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-                                <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
-                            </svg>
+                        <div className='card flex justify-center mt-12 mb-14'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                        </svg>
                         </div>
                         </Link>
                     </div>

@@ -1,10 +1,7 @@
-.youtube-video {
-    width: 1000px;
-    height: 100px;
+.main {
+    background-color: black;
 }
 
 .title {
     background-color: black;
-    width: 500px;
-    height: 500px;
 }

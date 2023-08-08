@@ -1,11 +1,11 @@
 const Contacts = () => {
     return (
         <>
-            <section className="text-gray-600 body-font relative">
+           <section className="text-gray-600 body-font relative">
     <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-                Свяжитесь с нами
+                Контакты
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                 Отправьте нам заявку
@@ -64,9 +64,9 @@ const Contacts = () => {
                             Отправить
                         </button>
                     </div>
-                    <div className="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+                    <div className="p-2 w-full pt-8 mt-8 border-t border-black text-center">
                         <a href="mailto:" className="text-slate-950">test@test.com</a>
-                        <p className="leading-normal my-5">
+                        <p className="leading-normal my-5 text-slate-950">
                             11K USACHEVA STREET
                             <br />
                             Moscow
@@ -77,6 +77,7 @@ const Contacts = () => {
         </div>
     </div>
 </section> 
+
         </>
 
     )

@@ -19,6 +19,7 @@ import Footer from './components/Footer/Footer'
 import Vacansies from './pages/Vacancies/Vacancies'
 import Cinemas from './pages/Cinemas/Cinemas'
 
+
 const App = () => {
   return (
       <>

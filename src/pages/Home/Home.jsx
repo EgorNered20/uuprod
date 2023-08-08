@@ -15,9 +15,14 @@ const Home = () => {
     );
 
     const loadMoreProjects = () => {
-        setProjectsToShow(projectsToShow + 12);
-        setDisplayedProjects(allProjects.slice(0, projectsToShow + 12));
+        const newProjectsToShow = projectsToShow + 12;
+        const newDisplayedProjects = allProjects.slice(0, newProjectsToShow);
+        setProjectsToShow(newProjectsToShow);
+        setDisplayedProjects(newDisplayedProjects);
     };
+    
+
+    
 
 
     return (
@@ -29,7 +34,7 @@ const Home = () => {
                     <Link to="/">
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
                         >
                             Все проекты
                         </button>
@@ -37,7 +42,7 @@ const Home = () => {
                     <Link to='/field'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Сферы деятельности
                         </button>
@@ -45,7 +50,7 @@ const Home = () => {
                     <Link to='/utilities'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Услуги
                         </button>    
@@ -53,7 +58,7 @@ const Home = () => {
                     <Link to='/clients'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Клиенты
                         </button>
@@ -81,7 +86,11 @@ const Home = () => {
                         );
                         })}
                         
-                        <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none' onClick={loadMoreProjects}>Load More</button>
+                        {allProjects.length > displayedProjects.length && (
+                            <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none' onClick={loadMoreProjects}>Загрузить больше</button>
+                        )}
+                        
+                        
 
                     
                       

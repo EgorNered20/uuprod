@@ -11,7 +11,7 @@ const FieldActiv = () => {
                     <Link to="/">
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Все проекты
                         </button>
@@ -19,7 +19,7 @@ const FieldActiv = () => {
                     <Link to='/field'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Сферы деятельности
                         </button>
@@ -27,7 +27,7 @@ const FieldActiv = () => {
                     <Link to='/utilities'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Услуги
                         </button>    
@@ -35,7 +35,7 @@ const FieldActiv = () => {
                     <Link to='/clients'>
                         <button
                             type="button"
-                            class="border border-gray-700 bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Клиенты
                         </button>

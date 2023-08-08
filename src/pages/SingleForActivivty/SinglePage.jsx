@@ -17,9 +17,6 @@ const SinglePage = () => {
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
                         {portfloiof.title}
                     </h1>
-                    <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-                        {portfloiof.review}
-                    </p>
                     </div>
                     <div className="flex flex-wrap md:-m-2 -m-1" bis_skin_checked={1}>
                     <div className="flex flex-wrap w-1/2" bis_skin_checked={1}>
@@ -72,7 +69,7 @@ const SinglePage = () => {
                 </div>
                 <div className="flex justify-center">
                             <Link to='/contacts'>
-                                <button className="bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">Заказать проект</button>
+                                <button className="mb-20 bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">Заказать проект</button>
                             </Link>
                         </div>
                 </section>
