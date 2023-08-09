@@ -5,7 +5,7 @@ const VisualD = () => {
         <>
             <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-fortxt sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
           <svg
               viewBox="0 0 52 24"
@@ -22,30 +22,30 @@ const VisualD = () => {
           </span>{' '}
           визуализация
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="text-base text-fortxt md:text-lg">
             3D-моделирование и визуализация: искусство создания продуктов и систем, находящихся на стадии проектирования.
         </p>
       </div>
       <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Заполнение брифа</p>
+            <p className="text-lg font-bold leading-5 text-white">Заполнение брифа</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               1
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
                 Заполняем бриф на основании беседы с заказчиком. Обсуждаем допустимые варианты 3D-моделей, пользовательские характеристики, характер бренда, желаемое впечатление, целевую аудиторию.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Создание 3D моделей и их визуализация</p>
+            <p className="text-lg font-bold leading-5 text-white">Создание 3D моделей и их визуализация</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               2
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             Создаём рабочую модель объекта на основании проекта заказчика в программе 3dMax. Дополняем модель окружающими деталями, настраиваем свет, добавляем предметы и объекты. Настраиваем и рисуем текстуры. Фотореалистичная визуализация в Corona render или Vray: эстетичное изображение, максимально приближенное к реальности, которое используется в рекламе, в каталогах, на сайте и т. д.
           </p>
           </div>

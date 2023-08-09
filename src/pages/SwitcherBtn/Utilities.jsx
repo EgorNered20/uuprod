@@ -47,10 +47,10 @@ const Utilities = () => {
                         <div className="container px-5 py-24 mx-auto" bis_skin_checked={1}>
                             <div className="flex flex-wrap w-full mb-20" bis_skin_checked={1}>
                             <div className="lg:w-1/2 w-full mb-6 lg:mb-0" bis_skin_checked={1}>
-                                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-3 text-gray-900 animate__animated animate__fadeInLeft">
+                                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-3 text-fortxt animate__animated animate__fadeInLeft">
                                     Услуги
                                 </h1>
-                                <div className="h-1 w-20 bg-gray-700 rounded" bis_skin_checked={1} />
+                                <div className="h-1 w-20 bg-forline rounded animate__animated animate__fadeInLeft" bis_skin_checked={1} />
                             </div>
                             </div>
                             <div className="flex flex-wrap -m-4 animate__animated animate__fadeInDown" bis_skin_checked={1}>

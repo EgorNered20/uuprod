@@ -6,11 +6,11 @@ const Videos = ({img, index}) => {
     return (
             <div className="card lg:w-1/3 w-full p-2" bis_skin_checked={1}>
                     <div className="flex relative" bis_skin_checked={1}>
-                    <img
-                        alt="gallery"
-                        className="absolute inset-0 h-full object-cover object-center animate__animated animate__fadeInDown"
-                        src={img}
-                    />
+                        <img
+                            alt="gallery"
+                            className="absolute inset-0 h-full object-cover object-center animate__animated animate__fadeInDown"
+                            src={img}
+                        />
                     <div
                         className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-50 transition duration-500"
                         bis_skin_checked={1}

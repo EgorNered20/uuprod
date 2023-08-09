@@ -4,8 +4,8 @@ const Vacancies = () => {
     return (
         <section>
             <div className="container mx-auto mt-32">
-                <h1 className="text-2xl mb-20">Вакансии</h1>
-                <form className='mb-10' action="https://formspree.io/f/xleygqdw" method="POST">
+                <h1 className="text-2xl mb-20 animate__animated animate__fadeInLeft">Вакансии</h1>
+                <form className='mb-10 animate__animated animate__fadeInLeft' action="https://formspree.io/f/xleygqdw" method="POST">
                     <label>Твоё имя</label>
                     <input type="text" name='Name' placeholder="Имя" className='mb-5' />
                     <label>Кем ты видишь себя в нашей команде?</label>

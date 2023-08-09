@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 const Presentation = () => {
     return (
         <>
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 animate__animated animate__fadeInDown">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-fortxt sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
           <svg
               viewBox="0 0 52 24"
@@ -18,78 +18,78 @@ const Presentation = () => {
                 height="24"
               />
             </svg>
-            <span className="relative">Комплекс услуг</span>
+            <span className="relative text-fortxt">Комплекс услуг</span>
           </span>{' '}
           по созданию буклетов и презентаций
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
-            Буклет — незаменимый помощник в офисе продаж. Такой инструмент понятно и доступно донесёт уникальные преимущества вашего проекта или продукта до покупателя. Чтобы создать буклет, специалисты «Андва» работают в несколько этапов.
+        <p className="text-base text-fortxt md:text-lg">
+            Буклет — незаменимый помощник в офисе продаж. Такой инструмент понятно и доступно донесёт уникальные преимущества вашего проекта или продукта до покупателя. Чтобы создать буклет, специалисты UU Prodaction работают в несколько этапов.
         </p>
       </div>
       <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Погружаемся в задачу, изучаем компанию и продукт</p>
-            <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
+            <p className="text-lg font-bold leading-5 text-white">Погружаемся в задачу, изучаем компанию и продукт</p>
+            <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-white">
               1
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             Выявляем основные ценности компании. Изучаем уникальность и пользу проекта/продукта, мотивы и барьеры к покупке у вашей аудитории.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Разрабатываем структуру буклета</p>
+            <p className="text-lg font-bold leading-5 text-white">Разрабатываем структуру буклета</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               2
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             Логично ведём читателя к выводу: ваше предложение — это лучший вариант.
           </p>
         </div>
-      <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+      <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Предлагаем идеи оформления буклета</p>
+            <p className="text-lg font-bold leading-5 text-white">Предлагаем идеи оформления буклета</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               3
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             Создать буклет, к которому хочется возвращаться? Такое возможно. Дизайн, иллюстрации, технологии и ёмкие тексты могут творить чудеса.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Создаем контент</p>
+            <p className="text-lg font-bold leading-5 text-white">Создаем контент</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               4
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
                 Для качественного буклета можно и фотосессию провести, и 3D замоделить, зная что это окупится. Гигиенический минимум — уникальные тексты и фото со стока.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Дизайн и вёрстка</p>
+            <p className="text-lg font-bold leading-5 text-white">Дизайн и вёрстка</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               5
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
           Сверстаем собранную информацию, распределяя её по страницам. Любим наглядно и красиво: максимум визуала и минимум текстов. Буклет проверяем на ошибки корректором.
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Печать, контроль качества</p>
+            <p className="text-lg font-bold leading-5 text-white">Печать, контроль качества</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               6
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             Любим взять в руки и полистать пахнущие типографской краской первые экземпляры. Проверяем тираж и отправляем заказчику.
           </p>
         </div>

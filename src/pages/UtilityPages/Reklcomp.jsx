@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 const Reklcomp = () => {
     return (
         <>
-            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 animate__animated animate__fadeInDown">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
-        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+        <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-fortxt sm:text-4xl md:mx-auto">
           <span className="relative inline-block">
           <svg
               viewBox="0 0 52 24"
@@ -22,30 +22,30 @@ const Reklcomp = () => {
           </span>{' '}
           рекламная кампания
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="text-base text-fortxt md:text-lg">
             Разработка слоганов и дизайн серии билбордов и других рекламных носителей
         </p>
       </div>
       <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Список задач</p>
+            <p className="text-lg font-bold leading-5 text-white">Список задач</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               1
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
                 На этом этапе мы формируем задачи
           </p>
         </div>
-        <div className="p-5 duration-300 transform bg-white border rounded shadow-sm hover:-translate-y-2">
+        <div className="p-5 duration-300 transform bg-fortxt rounded shadow-sm hover:-translate-y-2">
           <div className="flex items-center justify-between mb-2">
-            <p className="text-lg font-bold leading-5">Разработка дизайна</p>
+            <p className="text-lg font-bold leading-5 text-white">Разработка дизайна</p>
             <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
               2
             </p>
           </div>
-          <p className="text-sm text-gray-900">
+          <p className="text-sm text-white">
             На этом этапе самая важная задача - создать продающий дизайн
           </p>
           </div>
