@@ -18,13 +18,14 @@ import About from './pages/About/About'
 import Footer from './components/Footer/Footer'
 import Vacansies from './pages/Vacancies/Vacancies'
 import Cinemas from './pages/Cinemas/Cinemas'
+import Navbar from './components/Navbar/Navbar'
 
 
 const App = () => {
   return (
       <>
       <BrowserRouter>
-      <Burgermenu />
+      <Navbar />
           <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/field' element={<FieldActiv />} />

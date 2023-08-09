@@ -2,6 +2,7 @@ import './Home.module.css'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Videos from './../Videos/Videos'
+import 'animate.css'
 
 import {videos} from './../../helpers/videoList'
 
@@ -34,7 +35,7 @@ const Home = () => {
                     <Link to="/">
                         <button
                             type="button"
-                            class="bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
+                            class="animate__animated animate__fadeInDown bg-slate-950 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-gray-800 focus:outline-none focus:shadow-outline"
                         >
                             Все проекты
                         </button>
@@ -42,7 +43,7 @@ const Home = () => {
                     <Link to='/field'>
                         <button
                             type="button"
-                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
+                            class="animate__animated animate__fadeInDown bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Сферы деятельности
                         </button>
@@ -50,7 +51,7 @@ const Home = () => {
                     <Link to='/utilities'>
                         <button
                             type="button"
-                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
+                            class="animate__animated animate__fadeInDown bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Услуги
                         </button>    
@@ -58,7 +59,7 @@ const Home = () => {
                     <Link to='/clients'>
                         <button
                             type="button"
-                            class="bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
+                            class="animate__animated animate__fadeInDown bg-gray-600 text-white rounded-md px-4 py-2 m-2 transition duration-500 ease select-none hover:bg-slate-950 focus:outline-none focus:shadow-outline"
                         >
                             Клиенты
                         </button>
@@ -86,9 +87,14 @@ const Home = () => {
                         );
                         })}
                         
-                        {allProjects.length > displayedProjects.length && (
-                            <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none' onClick={loadMoreProjects}>Загрузить больше</button>
-                        )}
+                        <div className="flex justify-center">
+                            {allProjects.length > displayedProjects.length && (
+                                <button className='bg-slate-950 inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none' onClick={loadMoreProjects}>
+                                    Загрузить больше
+                                </button>
+                            )}
+                        </div>
+
                         
                         
 

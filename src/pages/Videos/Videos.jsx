@@ -8,7 +8,7 @@ const Videos = ({img, index}) => {
                     <div className="flex relative" bis_skin_checked={1}>
                     <img
                         alt="gallery"
-                        className="absolute inset-0 h-full object-cover object-center"
+                        className="absolute inset-0 h-full object-cover object-center animate__animated animate__fadeInDown"
                         src={img}
                     />
                     <div

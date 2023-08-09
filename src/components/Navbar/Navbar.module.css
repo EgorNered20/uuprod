@@ -1,0 +1,9 @@
+.navbar-slide {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+  }
+  
+  .navbar-slide-open {
+    transform: translateY(0%);
+  }
+  

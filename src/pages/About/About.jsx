@@ -6,10 +6,10 @@ const About = () => {
                 className="flex flex-col text-center w-full mb-12"
                 bis_skin_checked={1}
                 >
-                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                    <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 animate__animated animate__fadeInDown">
                         О нас
                     </h1>
-                    <p className="mt-20 lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="mt-20 lg:w-2/3 mx-auto leading-relaxed text-base animate__animated animate__fadeInDown mb-36">
                     Мы - команда профессионалов в области рекламной съемки, которая предлагает широкий спектр услуг для создания ярких и запоминающихся рекламных кампаний. Наша цель - помочь нашим клиентам достичь максимального эффекта от своей рекламы, используя наши знания, опыт и творческий подход.
 
 Мы работаем с различными видами рекламы - от телевизионных роликов до интернет-рекламы, от наружной рекламы до рекламы на транспорте. Мы предлагаем полный спектр услуг, начиная с разработки концепции и заканчивая пост-продакшном.
